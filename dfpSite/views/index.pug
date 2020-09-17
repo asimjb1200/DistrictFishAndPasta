@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  header#home.bgimg.w3-display-container.w3-grayscale-min
+    .w3-display-bottomleft.w3-center.w3-padding-large.w3-hide-small
+      span.w3-tag Open from 6am to 5pm
+    //- .w3-display-middle.w3-center
+    //-   span.w3-text-white(style='font-size:90px')
+    //-     | the
+    //-     br
+    //-     | Cafe
+    .w3-display-bottomright.w3-center.w3-padding-large
+      span.w3-text-white 15 Adr street, 5015
+  
+  include ./about
+  include ./menu
+  

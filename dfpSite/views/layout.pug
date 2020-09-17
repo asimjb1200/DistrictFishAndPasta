@@ -2,6 +2,20 @@ doctype html
 html
   head
     title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href="https://fonts.googleapis.com/css?family=Inconsolata", rel="stylesheet")
+    link(href="https://www.w3schools.com/w3css/4/w3.css", rel="stylesheet")
+    
   body
+    .w3-top
+      .w3-row.w3-padding.w3-black
+        .w3-col.s3
+          a.w3-button.w3-block.w3-black(href='#') HOME
+        .w3-col.s3
+          a.w3-button.w3-block.w3-black(href='#gallery') GALLERY
+        .w3-col.s3
+          a.w3-button.w3-block.w3-black(href='#menu') MENU
+        .w3-col.s3
+          a.w3-button.w3-block.w3-black(href='#where') WHERE
     block content
