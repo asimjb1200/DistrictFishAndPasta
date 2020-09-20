@@ -3,40 +3,58 @@
             h5.w3-center.w3-padding-48
                 span.w3-tag.w3-wide MENU
     .w3-row.w3-center.w3-card.w3-padding
-      a#myLink(href='javascript:void(0)', onclick="openMenu(event, 'Eat');")
-        .w3-col.s6.tablink Fish
-      a(href='javascript:void(0)', onclick="openMenu(event, 'Drinks');")
-        .w3-col.s6.tablink Pasta
-    #Eat.w3-container.menu.w3-padding-48.w3-card
-      h5 Bread Basket
-      p.w3-text-grey Assortment of fresh baked fruit breads and muffins 5.50
+      a#myLink(href='javascript:void(0)', onclick="openMenu(event, 'Fish');")
+        .w3-col.s6.tablink Fish 
+      a(href='javascript:void(0)', onclick="openMenu(event, 'Pasta');")
+        .w3-col.s6.tablink Pasta 
+      a(href='javascript:void(0)', onclick="openMenu(event, 'Dessert');")
+        .w3-col.s6.tablink Dessert  
+    #Fish.w3-container.menu.w3-padding-48.w3-card
+      h5 Basa/Catfish-Whiting (All dinners come with 2 sides and bread)
+      p.w3-text-grey 4pc & 2 Reg Sides $11.00
+      p.w3-text-grey 8pc & 2 Reg Sides $15.00
+      p.w3-text-grey 16pc & 2 Lg Sides $28.00
       br
-      h5 Honey Almond Granola with Fruits
-      p.w3-text-grey Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+      h5 Fish & Bread
+      p.w3-text-grey 4pc $8.00
+      p.w3-text-grey 8pc $12.00
+      p.w3-text-grey 16pc $24.00
       br
-      h5 Belgian Waffle
-      p.w3-text-grey Vanilla flavored batter with malted flour 7.50
+      h5 Sandwiches
+      p.w3-text-grey Comeback sandwich (lettuce and tomato) w/ 1 reg side $10.00
+      p.w3-text-grey Comeback sandwich $8.00
       br
-      h5 Scrambled eggs
-      p.w3-text-grey Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+      h5 Shrimp Dinner
+      p.w3-text-grey 10pc dinner $15.00
       br
-      h5 Blueberry Pancakes
-      p.w3-text-grey With syrup, butter and lots of berries 8.50
-    #Drinks.w3-container.menu.w3-padding-48.w3-card
-      h5 Coffee
-      p.w3-text-grey Regular coffee 2.50
+      h5 Side Items
+      p.w3-text-grey Regular $7.00
+      p.w3-text-grey Small (collard greens-fries-cole slaw-potatoe salad-green beans-okra) $3.00
+    #Pasta.w3-container.menu.w3-padding-48.w3-card
+      h5 Choose One - Pasta
+      p.w3-text-grey Fettichini or Penne
       br
-      h5 Chocolato
-      p.w3-text-grey Chocolate espresso with milk 4.50
+      h5 Add Ins
+      p.w3-text-grey Fajita Spice-Cajun Spice $2.00
+      p.w3-text-grey Spinach $2.00
+      p.w3-text-grey Sundried Tomatoes $2.00
+      p.w3-text-grey Spinach $2.00
+      p.w3-text-grey Steak $4.85
+      p.w3-text-grey Crawfish $3.99
+      p.w3-text-grey Chicken Sausage $2.00
+      p.w3-text-grey Grilled Chicken $2.00
+      p.w3-text-grey Spinach $2.00
+      p.w3-text-grey Garlic Bread * 2pc $1.00
       br
-      h5 Corretto
-      p.w3-text-grey Whiskey and coffee 5.00
+    #Dessert.w3-container.menu.w3-padding-48.w3-card
+      h5 Dessert
+      p.w3-text-grey Buttercream Cake $4.00
+      p.w3-text-grey Carrot Cake $4.00
+      p.w3-text-grey Strawbberry Shortcake $4.00
+      p.w3-text-grey Chocolate Turtle $4.00
+      p.w3-text-grey Lemon Cake $4.00
+      p.w3-text-grey Banana Pudding $4.00
       br
-      h5 Iced tea
-      p.w3-text-grey Hot tea, except not hot 3.00
-      br
-      h5 Soda
-      p.w3-text-grey Coke, Sprite, Fanta, etc. 2.50
 
 script.
     // Tabbed Menu
