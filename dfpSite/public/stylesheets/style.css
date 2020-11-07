@@ -6,7 +6,7 @@ body, html {
 .bgimg {
   background-position: center;
   background-size: cover;
-  background-image: url("../images/dfp_logo.png");
+  background-image: url("../images/logo2.jpg");
   min-height: 75%;
 }
 
@@ -16,4 +16,10 @@ body, html {
 
 a {
   color: #00B7FF;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
 }
